@@ -81,7 +81,7 @@ public class MainApplication extends Application implements ReactApplication {
 **iOS:**
 
 1. 在 XCode的项目导航视图中单击 `Libraries` ➜ `Add Files to [your project's name]`
-2. 将 `SplashScreen.xcodeproj`添加到你的项目中,`node_modules` ➜ `react-native-launch-image`  ➜ `SplashScreen.xcodeproj`
+2. 将 `SplashScreen.xcodeproj`添加到你的项目中,`node_modules` ➜ `react-native-splash-screen`  ➜ `SplashScreen.xcodeproj`
 
 3.  在XCode中打开`Build Phases` ➜ `Link Binary With Libraries`将`libSplashScreen.a` 添加到你的项目中。
 
@@ -154,9 +154,13 @@ public class MainActivity extends ReactActivity {
 </LinearLayout>
 ```
 
+**更详细的介绍，可以查看 [examples](https://github.com/crazycodeboy/react-native-splash-screen/tree/master/examples)**
+
 **iOS**
 
 iOS可以通过LaunchImage或LaunchScreen.xib来自定义你的启动屏幕。
+
+**更详细的介绍，可以查看 [examples](https://github.com/crazycodeboy/react-native-splash-screen/tree/master/examples)**
 
 最后，你可以在适当的时候关闭启动屏幕（如：启动初始化完成后）:
 
